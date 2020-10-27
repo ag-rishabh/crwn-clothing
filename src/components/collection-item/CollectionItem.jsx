@@ -2,9 +2,9 @@ import React from 'react';
 
 import './collection-item.scss';
 
-const CollectionItem = ({id, name, price, imageUrl}) => (
+const CollectionItem = ({ id, name, price, imageUrl }) => (
     <div className="collection-item">
-        <div 
+        <div
             className="image"
             style={{
                 backgroundImage: `url(${imageUrl})`
